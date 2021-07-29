@@ -5,17 +5,14 @@ Link to project blog post:
 https://hakon-doksrod.medium.com/analysis-and-prediction-of-airbnb-prices-in-seattle-12115d639887
 
 Installation:
-This project is created with Python 3.6
-The following libraries are necessary for running the code in the notebooks:
+This project requires Python 3.x and the following Python libraries installed:
 
-    pandas
-    numpy
+    NumPy
+    Pandas
     matplotlib
-    seaborn
-    sklearn (linear_model, model_selection, metrics, ensemble)
+    scikit-learn
+    Jupyter-Notbook
 
-Files in the repository:
-README.md
 Data files: (Data publicly available here: https://www.kaggle.com/airbnb/seattle)
 
     listings.zip
