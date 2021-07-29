@@ -2,7 +2,7 @@
 Udacity Data Scientist 1st Project
 
 Link to project blog post:
-https://hakon-doksrod.medium.com/analysis-and-prediction-of-airbnb-prices-in-seattle-12115d639887
+
 
 Installation:
 This project requires Python 3.x and the following Python libraries installed:
@@ -13,7 +13,7 @@ This project requires Python 3.x and the following Python libraries installed:
     scikit-learn
     Jupyter-Notbook
 
-Data files: (Data publicly available here: https://www.kaggle.com/airbnb/seattle)
+Data files: (Data publicly available here: http://insideairbnb.com/get-the-data.html)
 
     listings.zip
     reviews.zip Notebooks:
