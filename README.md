@@ -32,6 +32,9 @@ Acknowledgements:
 Several of the functions used in building the prediction models were taken or adapted from functions used in the Udacity course.
 Webites used for code solutions/inspiration:
 https://www.w3resource.com/python-exercises/
+
 https://towardsdatascience.com/
+
 https://nbviewer.jupyter.org/github/
+
 https://www.datacamp.com/community/tutorials/
