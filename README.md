@@ -1,36 +1,32 @@
 # datascience
 Udacity Data Scientist 1st Project
 
-Link to project blog post:
+Link to project blog post: https://medium.com/@alexortbiber/udacity-data-scientist-introduction-to-data-science-e3389c0dff65
 
 
 Installation:
 This project requires Python 3.x and the following Python libraries installed:
 
-    NumPy
-    Pandas
-    matplotlib
-    scikit-learn
-    Jupyter-Notbook
+   NumPy
+   Pandas
+   matplotlib
+   Jupyter-Notbook
 
 Data files: (Data publicly available here: http://insideairbnb.com/get-the-data.html)
 
-    listings.zip
-    reviews.zip Notebooks:
-    airbnb_neighborhood.ipynb
-        Exploration and analysis of prices and variation of prices between different neighborhoods of Seattle
-    airbnb_prediction.ipynb
-        Building a model for price prediction using machine learning techniques.
+   listings.zip
+   reviews.zip Notebooks:
+   calendar.csv.gz
+        Exploration and analysis of prices and variation of prices between different neighborhoods of Boston.
 
 Motivation:
-This project is a part of my Udacity Data Scientist Nanodegree program. I chose to work with Airbnb data from Seattle. I was interested in exploring and analyzing prices of AirBnB listings and how they vary depending on neighborhood. Furthermore, I was interested to explore how difference in price was reflected in how properties are described/reviewed.
+This project is a part of my Udacity Data Scientist Nanodegree program. I chose to work with Airbnb data from Boston. I was interested in exploring and analyzing prices of AirBnB listings and how they vary depending on neighborhood. Furthermore, I was interested to explore how difference in price was reflected through the year.
 
-I also wanted to try to build a model for predicting the price of listings using machine learning. Being my first attempt at building this kind of model, I expected this to be challenging, but ultimately a good learning experience.
 
 Summary of results:
-The first part of the analysis, regarding prices and variation between neighborhoods, yielded findings that largely pointed towards location being important to the price level of the listing. Looking further into reviews and descriptions of listings in the most and least expensive neighborhoods also revealed that location seems to be given more importance in the description of listings in the most expensive neighborhoods, and more on the property itself in the least expensive neighborhoods.
+The first part of the analysis, regarding prices and variation between neighborhoods, data suggests that location is important to the listing price level. Looking further into listings it also revealed that the quantity in one neighbourhood is not related to the price.
 
-I first built a linear regression model for predicting price, which gave quite mediocre results with an R squared score of aboubt 0.63. Using a gradient boosting regressor I was able to increase the score to about 0.70, which is still not great but at least a decent score. Looking more closely at results and residuals, the models were clearly not very good at predicting prices in cases of expensive listings. This was not unexpected, as the models didn't have a lot of these kinds of listings in the dataset to train with.
+On the other hand, trying to find if price fluctuate throughout the year, I have seen that the database is wrong as it only has dates in the future. Even so, we can see that it is stable throughout the year except for 5 specific dates that should be investigated. 
 
 Acknowledgements:
 Several of the functions used in building the prediction models were taken or adapted from functions used in the Udacity course.
