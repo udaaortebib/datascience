@@ -31,4 +31,7 @@ On the other hand, trying to find if price fluctuate throughout the year, I have
 Acknowledgements:
 Several of the functions used in building the prediction models were taken or adapted from functions used in the Udacity course.
 Webites used for code solutions/inspiration:
-https://www.w3resource.com/python-exercises/list/python-data-type-list-exercise-183.php https://towardsdatascience.com/how-to-generate-prediction-intervals-with-scikit-learn-and-python-ab3899f992ed https://nbviewer.jupyter.org/github/WillKoehrsen/Data-Analysis/blob/master/prediction-intervals/prediction_intervals.ipynb https://www.datacamp.com/community/tutorials/wordcloud-python
+https://www.w3resource.com/python-exercises/
+https://towardsdatascience.com/
+https://nbviewer.jupyter.org/github/
+https://www.datacamp.com/community/tutorials/
