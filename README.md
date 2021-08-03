@@ -15,7 +15,7 @@ This project requires Python 3.x and the following Python libraries installed:
 Data files: (Data publicly available here: http://insideairbnb.com/get-the-data.html)
 
    listings.csv (airbnb listing with host name, neighbourhood, location, price and reviews)
-   calendar.csv.gz
+   calendar.csv.gz (list of nights and prices)
 
 Motivation:
 This project is a part of my Udacity Data Scientist Nanodegree program. I chose to work with Airbnb data from Boston. I was interested in exploring and analyzing prices of AirBnB listings and how they vary depending on neighborhood. Furthermore, I was interested to explore how difference in price was reflected through the year.
