@@ -14,7 +14,7 @@ This project requires Python 3.x and the following Python libraries installed:
 
 Data files: (Data publicly available here: http://insideairbnb.com/get-the-data.html)
 
-   listings.csv 
+   listings.csv (airbnb listing with host name, neighbourhood, location, price and reviews)
    calendar.csv.gz
 
 Motivation:
